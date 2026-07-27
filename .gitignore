@@ -1,0 +1,39 @@
+# Виртуальное окружение и кеш Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ноутбуки и контроль версий Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Данные (обычно сырые данные игнорируют, если они большие)
+*.csv
+*.xlsx
+*.xls
+*.json
+data/
+raw_data/
+
+# Модели машинного обучения (сохраняются локально, в репозитории не нужны)
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.bin
+*.pth
+*.safetensors
+# Переменные окружения
+.env
+.env.local
